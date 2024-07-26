@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    padding:0px;
+    /* border:solid */
+}
+.head{
+    background-image: url("https://media.cntraveler.com/photos/5e74f9de2e6ca30009d1d4fa/16:9/w_2560%2Cc_limit/Argentina-GettyImages-1146497849.jpg");
+    width:100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.head1{
+    position: absolute;
+    color: rgb(8, 8, 8);
+    font-weight: 600;
+    text-align: center;
+    right: 0px;
+    margin-right: 150px;
+    text-align: center;
+    margin-top: 180px;
+    line-height: 70px;
+    font-size: 50px;
+
+ 
+
+
+}
+
+span{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.s1{
+    font-size: 30px;
+    
+}
+.enq{
+    text-align: center;
+    margin-top: 450px;
+}
+.s2{
+    text-align: center;
+    border: none;
+    width:100%;
+    line-height: 50px;
+}
+h1{
+    text-align: center;
+}
+.but{
+    text-align: center;
+}
+.section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+span{
+    margin-left: 70px;
+
+}
+.but2{
+    text-decoration: none;
+    text-align:center ;
+    display: grid;
+    justify-content: center;
+    margin-top: 90px;
+   
+}
+
+.but1{
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    width:150px;
+    height: 40px;
+
+}
+.but1:hover{
+  background-color:blueviolet;
+}
+.m-img{
+    height: 350px;
+}
+.hd{
+    font-size: 80px;
+    text-shadow: blue 10px 0px 10px;
+}
+.vdo{
+    width: 45%;
+}
+.north{
+    margin-top: -150px;
+    margin-bottom: 30px;
+}
+.card:hover{
+    box-shadow:20px 20px 20px 20px rgb(133, 132, 132);
+}
+.grid{
+
+    width:45%;
+    margin-top: 170px;
+    
+    height: 500px;
+    display: grid;
+    grid-template-columns:20% 20% 35%;
+    grid-template-rows: 20% 20% 20%;
+    gap:4px;
+ 
+}
+.gimg{
+    width:100%;
+    height: 100%;
+
+
+
+}
+.d-img{
+    grid-row: span 2;
+}
+.img4{
+    display: flex;
+    justify-content:space-evenly;
+    width: 100%;
+    align-items: center;
+}
+.im{
+    width:300px;
+    height: 330px;
+    border: solid;
+    padding: 10px ;
+    border-radius: 30px;
+    position: relative;
+}
+.pun{
+    text-align: center;
+}
+
+.c1{
+    position: absolute;
+    top:0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background-color: rgba(236, 235, 233, 0.574);
+    border-radius: 30px;
+    opacity: 0;
+
+}
+.c1:hover{
+    opacity: 1;
+}
+.im1{
+    width:100%;
+    height: 300px;
+    border-radius: 20px;
+
+     
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    width:100%;
+    align-items: center;
+    text-align: center;
+}
+.cards1{
+    width: 300px;
+    height: 330px;
+    border: solid;
+    border-radius: 30%;
+}
+.im2{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    margin-top: 20px;
+    
+}
+.a1{
+    text-align: center;
+}
+.para2{
+    font-family: "Playwrite BE VLG", cursive;
+    text-align: center;
+    color: rgb(178, 115, 237);
+}
+.cards2{
+    display: flex;
+    justify-content: space-evenly;
+    width:100%;
+    align-items: center;
+    text-align: center;
+}
+.cards3{
+    width:300px;
+    height: 100%;
+    padding: 10px;
+}
+.im3{
+    width:100%;
+    /* height: 100%; */
+}
+.section5{
+    background-color:rgb(199, 183, 162);
+    width:100%;
+}
+footer{
+    background-color: rgb(40, 40, 70);
+    color:chocolate;
+    width: 100%;
+    padding-top: 30px;
+}
+.f-link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+.f3{
+    width: 300px;
+    height: fit-content;
+
+}
+.an{
+    text-decoration: none;
+    color:blueviolet;
+}
+
+@media(max-width:768px){
+    .vdo{
+        width:100vw;
+    }
+    .grid{
+        width:100vw;
+    }
+}
